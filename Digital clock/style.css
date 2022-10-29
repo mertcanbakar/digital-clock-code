@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #01031a;
+    color: white;
+}
+
+.main-conteiner {
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.text {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+
+}
+
+.clock-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    align-content: center;
+
+}
+
+.clock-items {
+    width: 30%;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.date-conteiner {
+    margin: 10px 0;
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    margin: 30px 0;
+    font-size: 50px;
+    text-align: center;
+}
